@@ -1,0 +1,350 @@
+.main>img {
+    margin-top: 15px;
+    width: 120px;
+    margin-left: 45%;
+    margin-bottom: 19px;
+}
+.box-1{
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    padding: 14px 18px;
+   
+
+}
+.box12{
+    margin-bottom: 26px !important;
+}
+.box-1>h2{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.box-1>input{
+    width: 80%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 12px;
+    padding: 10px 0px 10px 0px ;
+   
+}
+.box-1>p{
+    text-align: left;
+    padding-left: 20px;
+}
+.box-1>button{
+  
+    margin-top: 15px;
+    width: 80%;
+    padding: 5px 0px 5px 0px;
+   background-color: gold;
+   border-radius: 3px;
+   margin-bottom: 30px;
+}
+.sub-main1{
+border-radius: 4px;
+position: relative;
+padding: 14px 18px;
+}
+.h22{
+margin-bottom: 10px!important;
+font-weight: 400;
+font-size: 28px;
+line-height: 1.2;
+text-rendering: optimizeLegibility;
+padding-bottom: 4px;
+padding: 0;
+margin: 0;
+font-family: "Amazon Ember",Arial,sans-serif;
+}
+.username{
+margin-bottom: 14px!important;
+width: 100%;
+}
+label{
+display: block;
+padding-left: 2px;
+padding-bottom: 2px;
+font-weight: 700;
+}
+.a-input-text{
+background-color: #fff;
+height: 31px;
+padding: 3px 7px;
+line-height: normal;
+border: 1px solid #a6a6a6;
+border-top-color: #949494;
+border-radius: 3px;
+box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+outline: 0;
+width: 100%;
+margin-right: 0;
+}
+input{
+font-size: 100%;
+}
+.mobile-number{
+margin-top: 6px!important;
+}
+.numbers{
+position: relative;
+}
+.a-fixed-left-grid .a-fixed-left-grid-col {
+position: relative;
+overflow: visible;
+zoom: 1;
+min-height: 1px;
+}
+.a-dropdown-container {
+position: relative;
+}
+.a-js .a-native-dropdown, .a-js .a-native-splitdropdown {
+position: absolute;
+z-index: -1;
+opacity: .01;
+max-width: 100%;
+}
+#ap_register_form [autocomplete]:not(:-webkit-autofill) {
+animation-name: onAutoFillChanged;
+}
+.a-button {
+background: #e7e9ec;
+border-radius: 3px;
+border-color: #adb1b8 #a2a6ac #8d9096;
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+display: inline-block;
+padding: 0;
+text-align: center;
+text-decoration: none!important;
+vertical-align: middle;
+}
+.a-button-inner {
+display: block;
+position: relative;
+overflow: hidden;
+height: 29px;
+box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+border-radius: 2px;
+height:33px;
+}
+.a-button-dropdown .a-button-text {
+height: 47px;
+padding-right: 22px;
+text-align: left;
+overflow: hidden;
+text-overflow: ellipsis;
+position: relative;
+z-index: 15;
+top: 3px;
+
+}
+.a-button .a-button-text {
+color: #111;
+}
+.a-button-text {
+background-color: transparent;
+border: 0;
+display: block;
+font-family: Arial,sans-serif;
+font-size: 13px;
+line-height: 29px;
+margin: 0;
+outline: 0;
+padding: 0 10px 0 11px;
+text-align: center;
+white-space: nowrap;
+}
+.a-button-dropdown .a-button-text {
+padding-right: 22px;
+text-align: left;
+overflow: hidden;
+text-overflow: ellipsis;
+position: relative;
+z-index: 10;
+}
+.a-ember .a-button-text {
+font-family: "Amazon Ember",Arial,sans-serif;
+}
+.a-button .a-icon-dropdown {
+position: absolute;
+top: 10px;
+right: 9px;
+}
+.a-icon-dropdown {
+width: 5px;
+height: 8px;
+background-position: -65px -5px;
+}
+.email{
+margin-top: 53px;
+}
+.auth-inlined-information-message {
+display: inline-block;
+}
+.a-alert-inline {
+/* display: inline-block; */
+border: none;
+vertical-align: middle;
+background-color: transparent;
+}
+.class-1a {
+margin-top: 6px!important;
+}
+.a-alert-inline-info .a-alert-container {
+padding-left: 16px;
+color: #2b2b2b;
+}
+.a-alert-inline .a-alert-container {
+padding: 0;
+}
+.a-box .a-box-inner {
+/* border-radius: 4px; */
+position: relative;
+padding: 14px 18px;
+}
+.a-alert-inline .a-icon-alert {
+height: 13px;
+width: 14px;
+position: absolute;
+left: 2px;
+top: 2px;
+}
+.a-alert-inline-info .a-icon-alert, .a-icon-info.a-icon-small {
+width: 6px;
+background-position: -166px -130px;
+}
+.a-alert-inline .a-alert-container .a-alert-content {
+margin-bottom: 0;
+text-align: left;
+font-size: 12px;
+line-height: 15px;
+}
+.a-alert-inline-info .a-alert-container {
+padding-left: 16px;
+color: #2b2b2b;
+}
+
+/* .element.style {
+} */
+.a-alert-inline .a-alert-container .a-alert-content {
+margin-bottom: 0;
+text-align: left;
+font-size: 15px;
+line-height: 15px;
+}
+
+
+
+.a-alert-inline-info .a-alert-container {
+padding-left: 16px;
+color: #2b2b2b;
+}
+.a-ember body {
+font-family: "Amazon Ember",Arial,sans-serif;
+}
+.a-spacing-base2{
+margin-top:15px;
+}
+.class-1a.a-button-stack, .class-1.a-section {
+padding-top: 6px;
+margin-top: 0!important;
+text-align: justify;
+}
+.a-section {
+margin-bottom: 22px;
+}
+.mobile{
+font-family: Arial,sans-serif;
+font-size: 13px;
+line-height: 19px;
+color: #111;
+
+}
+.a-spacing-extra-large, .class-2a {
+margin-bottom: 26px;
+}
+.a-button-span12 {
+width: 100%;
+}
+.a-button-primary {
+background: #f0c14b;
+border-color: #a88734 #9c7e31 #846a29;
+color: #111;
+}
+.a-button {
+background: #e7e9ec;
+border-radius: 3px;
+border-color: #adb1b8 #a2a6ac #8d9096;
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+display: inline-block;
+padding: 0;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+}
+.a-button-primary .a-button-inner {
+box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+}
+.a-button-primary .a-button-inner {
+background: #f3d078;
+background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+.a-button-inner {
+display: block;
+position: relative;
+overflow: hidden;
+height: 29px;
+border-radius: 2px;
+}
+.a-ember input, .a-ember select, .a-ember textarea {
+font-family: "Amazon Ember",Arial,sans-serif;
+}
+button, input[type=button], input[type=reset], input[type=submit] {
+cursor: pointer;
+/* -webkit-appearance: button; */
+}
+.a-button-input {
+position: absolute;
+background-color: transparent;
+color: transparent;
+border: 0;
+cursor: pointer;
+height: 100%;
+width: 100%;
+left: 0;
+top: 0;
+opacity: .01;
+outline: 0;
+overflow: visible;
+z-index: 20;
+}
+.a-button-primary .a-button-text {
+color: #111;
+}
+.a-ember .a-button-text {
+font-family: "Amazon Ember",Arial,sans-serif;
+}
+.a-button-text {
+background-color: transparent;
+border: 0;
+display: block;
+font-family: Arial,sans-serif;
+font-size: 14px;
+line-height: 29px;
+margin: 0; 
+outline: 0;
+padding: 0 10px 0 11px;
+text-align: center;
+white-space: nowrap;
+}

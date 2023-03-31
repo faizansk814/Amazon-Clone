@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+#a{
+    position: relative;
+    bottom: 160px;
+}
+#a>h1{
+    font-weight: bold;
+    margin-top: 30vh;
+}
+#b{
+    position: relative;
+    bottom: 160px;
+}
+#b>img{
+    width: 100%;
+    height: 400px;
+}
+#select{
+    width: 50%;
+}
+#selected{
+    font-size: 20px;
+    border: none;
+}
+#button{
+    width: 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+#button button{
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+    padding: 7px 23px 7px 23px;
+}
+#button button:hover{
+    background-color: black;
+    color: white;
+}
+#container{
+    margin-top: 30px;
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    
+}
+.cards{
+    position: relative;
+}
+.cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#container{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+}
+.cards>img{
+    width: 80%;
+}
+
+.cards>p,h4{
+    margin-left: 20px;
+    color: black;
+}
+.cards>button{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: black;
+    padding: 7px 23px 7px 23px;
+    margin-bottom: 8px;
+}
+#price{
+    margin-top: 20px;
+}
+#size{
+    margin-top: 20px;
+}
+label{
+    font-size: 20px;
+}
+#button>button{
+    font-size: 17px;
+}

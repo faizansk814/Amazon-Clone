@@ -1,0 +1,54 @@
+.footer{
+    width: 100%;
+    height: 500px;
+    transition: all 0.2s;
+    position: relative;
+    top: 100px;
+    padding-bottom: 0;
+}
+.backtop{
+    /* font-size: 15px; */
+    color: white;
+    text-align: center;
+    height: 50px;
+    background-color: #455A64;
+    padding: 16px;
+    cursor: pointer;
+}
+.backtop span{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.backtop:hover{
+    background-color: #78909C;
+}
+.detail{
+    background-color: #263238;
+    height: 350px;
+}
+.table{
+    margin: 0 150px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+.table div{
+    width: 230px;
+
+}
+.t-head{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.table li{
+    color: white;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+}
