@@ -3,11 +3,13 @@ const connection =require('./connection/db')
 const fleecerouter = require('./routes/fleece.router')
 const rainrouter = require('./routes/rain.router')
 const salerouter = require('./routes/sale.route')
+const cors=require('cors')
 require('dotenv').config()
 const userrouter=require('./routes/user.router')
 
 const app=express()
 app.use(express.json())
+app.use(cors())
 app.use("/user",userrouter)
 
 app.use("/sale",salerouter)
