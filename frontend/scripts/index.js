@@ -52,3 +52,14 @@ $('.slide-nexting').click(function(e){
 $('.slider3').slick('slickNext');
 } );
 });
+
+let gotoaccount=document.getElementById("gotoaccount")
+let userdata=JSON.parse(localStorage.getItem("user"))||[]
+
+gotoaccount.addEventListener('click',()=>{
+  if(userdata.length==0){
+    window.location.href="signup.html"
+  }else{
+    window.location.href="accounts.html"
+  }
+})
