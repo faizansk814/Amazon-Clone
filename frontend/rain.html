@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!DOCTYPE html>
@@ -32,7 +33,7 @@
             <div class="flex logo">
 
 
-                <a href="#"> <img
+                <a href="./index.html"> <img
                         src="./images/logo.jpg"
                         alt=""></a>
                 <div class="map flex">
@@ -53,7 +54,7 @@
                     <i class="fas fa-caret-down"></i>
                 </div>
                 <input type="text" placeholder="Search here">
-                <i class="fa-regular fa-magnifying-glass"></i>
+                <i class="fas fa-search"></i>
             </div>
             <div class="flex right">
                 <div class="flex lang">
@@ -62,20 +63,18 @@
                     <span>EN</span>
                     <i class="fas fa-caret-down"></i>
                 </div>
-                <div class="sign">
-                    <span>Hello, sign in </span>
-                    <div class="flex ac">
-                        <span>Account & Lists</span>
-                        <i class="fas fa-caret-down"></i>
-                    </div>
+                <div class="sign" id="gotoaccount">
+                    <i class="fa-solid fa-user"></i>
                 </div>
                 <div class="sign">
                     <span>Returns</span>
                     <span>& Orders</span>
                 </div>
                 <div class="flex cart">
-                    <i class="fas fa-shopping-cart"> </i>
-                    <span class="C"><a class="C" target="_blank" href="./cart.html"></a></span>
+                    <a href="./cart.html">
+                        <i class="fas fa-shopping-cart"> </i>
+                    </a>
+                    <span class="C"></span>
                     <p id="show-value"></p>
 
                 </div>
@@ -92,9 +91,9 @@
             </div>
             <div class="two-2">
                 <ul>
-                    <li>Sale</li>
-                    <li>Top</li>
-                    <li><a target="_blank" href="./product-page.html">Mobile</a> </li>
+                    <li><a href="./sale.html">Sale</a></li>
+                    <li><a href="./fleece.html">Fleece</a></li>
+                    <li><a  href="./rain.html">Rain</a> </li>
                     <li> Today's Deals</li>
                     <li>Customer Service</li>
                     <li> Electronics</li>

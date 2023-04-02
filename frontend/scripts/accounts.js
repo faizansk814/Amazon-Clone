@@ -5,7 +5,7 @@ display(userdata)
 function display(data) {
     data.map((el) => {
         let h3=document.createElement('h3')
-        h3.innerText='Accounts'
+        h3.innerText='Home'
         let accountname = document.createElement('h1')
         accountname.innerText = `Welcome ${el.name}`
         let div=document.createElement('div')
@@ -26,3 +26,9 @@ function display(data) {
         box.append(div)
     })
 }
+let logoutbtn=document.getElementById("logout")
+
+logoutbtn.addEventListener('click',function(){
+    localStorage.clear()
+    window.location.href="index.html"
+})

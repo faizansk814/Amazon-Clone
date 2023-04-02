@@ -8,7 +8,7 @@ formel.addEventListener('submit', (e) => {
         password: document.querySelector("#ap_password").value,
         phone: document.querySelector("#ap_phone_number").value
     }
-    fetch("http://localhost:4031/user/register",{
+    fetch("https://inquisitive-pink-mackerel.cyclic.app/user/register",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"

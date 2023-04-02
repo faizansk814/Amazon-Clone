@@ -12,14 +12,17 @@
   #amazon:hover{
   background: linear-gradient(#F5D68A, #EEBA36);
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
   
   
   body {
       font-size: 13px;
       line-height: 19px;
       color: #111;
-      font-family: Arial,sans-serif;
   }
   
   img{

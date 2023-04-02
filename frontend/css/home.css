@@ -6,12 +6,16 @@
   list-style: none;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 
 body {
   background-color: white;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
 
 
 }

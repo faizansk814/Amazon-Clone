@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="icon" type="image/x-icon" href="images\bfccc.jpg">
+    <link rel="stylesheet" href="./css/payment.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="leftNav">
+                <img src="./images/logo.jpg" alt="BFC" onclick="location.href='index.html';">
+                <h3 onclick="location.href='index.html';" id="menuBtn">Menu</h3>
+                <h3></h3>
+            </div>
+            <div id="rightNav">
+                <h3></h3>
+                <h3></h3>
+                <h3></h3>
+                <img src="images\cartBucket.jpg" alt="" onclick="location.href='cart.html';">
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <div class="credicard">
+            <div class="upper">
+                <div class="creditdebit">Credit & Debit Cards</div>
+                <div class="addnew" style="color:black">Add new Cards For Payment</div>
+            </div>
+
+            <div class="cardnamee" style="color:black">Card Number</div>
+            <div class="cardin">
+                <input class="all" type="number" placeholder="XXXX XXXX XXXX XXXX" id="cardnum" maxlength="9" />
+            </div>
+            <div class="expisc">
+                <div class="expiry" style="color:black">Expiry Date(MM/YY)</div>
+                <div class="securitycode" style="color:black">CVV</div>
+            </div>
+            <div class="secinp">
+                <div class="monthyear"></div>
+                <div class="cvv"></div>
+            </div>
+            <div class="namecard">
+                <div id="datediv" style="display: flex; align-items: center;">
+                    <input class="all" type="text" id="month" placeholder="MM" maxlength="2"
+                        oninput="this.value=this.value.replace(/[^00-99]/g,'');" />
+                    <p id="slash">/</p>
+                    <input class="all" type="text" id="year" placeholder="YY" maxlength="2"
+                        oninput="this.value=this.value.replace(/[^00-99]/g,'');" />
+                </div>
+                <div class="check" class="all">
+                    <input class="all" type="password" id="cvv" placeholder="•••" maxlength="3"
+                        oninput="this.value=this.value.replace(/[^000-999]/g,'');" />
+                </div>
+            </div>
+
+            <div class="infor">
+                Your card details will be saved securely for future transactions,
+                based on the industry standards.
+            </div>
+            <div class="makepayment">
+                <div id="paymentmake">
+                    MAKE PAYMENT
+                </div>
+            </div>
+        </div>
+        
+</body>
+<script src="./scripts/payment.js"></script>
+
+</html>

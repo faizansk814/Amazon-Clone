@@ -8,7 +8,7 @@ btn.addEventListener('click',()=>{
         password:passwordinp.value
     }
     console.log(obj)
-    fetch("http://localhost:4031/user/login",{
+    fetch("https://inquisitive-pink-mackerel.cyclic.app/user/login",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
