@@ -9,13 +9,14 @@ let s = document.getElementById('s')
 let m = document.getElementById('m')
 let l = document.getElementById('l')
 let xl = document.getElementById('xl')
+
 // let cartarr=[]
 
 
 
 
 let fetched = []
-fetch("http://localhost:4031/sale")
+fetch("https://inquisitive-pink-mackerel.cyclic.app/sale")
     .then((res) => {
         return res.json()
     })
@@ -57,12 +58,7 @@ function display(data) {
                     })
                     .then((data) => {
                         console.log(data)
-                        if (data.msg == "Data already present") {
-                            alert("Product already in cart")
-                        } else {
-                            console.log(data)
-                            alert("Product added to cart")
-                        }
+                        alert(data.msg)   
                     })
                     .catch((err) => {
                         alert(err)
@@ -173,4 +169,14 @@ xl.addEventListener('click', function () {
         return el.size == "X"
     })
     display(filtered)
+})
+let gotoaccount=document.getElementById("gotoaccount")
+let userdata=JSON.parse(localStorage.getItem("user"))||[]
+
+gotoaccount.addEventListener('click',()=>{
+  if(userdata.length==0){
+    window.location.href="signup.html"
+  }else{
+    window.location.href="accounts.html"
+  }
 })

@@ -15,7 +15,7 @@ let curUSr = JSON.parse(localStorage.getItem("current-user"))||[]
 
 
 let fetched=[]
-fetch("http://localhost:4031/rain")
+fetch("https://inquisitive-pink-mackerel.cyclic.app/rain")
 .then((res)=>{
     return res.json()
 })
@@ -41,15 +41,31 @@ function display(data){
         let btn=document.createElement('button')
         btn.innerText="Add to Cart";
         
-        btn.addEventListener('click',function(){
-            if(duplicate(el)){
-              alert('Product Already in Cart')
-            }else{
-                curUSr.cart.push(el);
-              localStorage.setItem('current-user',JSON.stringify(curUSr))
-              alert('Product Added To Cart');
+        btn.addEventListener('click', function () {
+            let token = localStorage.getItem("token")
+            if (token) {
+                fetch("http://localhost:4031/cart/post", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${localStorage.getItem("token")}`
+                    },
+                    body: JSON.stringify(el)
+                })
+                    .then((res) => {
+                        return res.json()
+                    })
+                    .then((data) => {
+                        console.log(data)
+                        alert(data.msg)   
+                    })
+                    .catch((err) => {
+                        alert(err)
+                    })
+            } else {
+                alert("Login first")
             }
-      })
+        })
         div.append(image1,name,price,btn)
         main.append(div)
     })
@@ -159,4 +175,14 @@ xl.addEventListener('click',function(){
         return el.size=="X"
     })
     display(filtered)
+})
+let gotoaccount=document.getElementById("gotoaccount")
+let userdata=JSON.parse(localStorage.getItem("user"))||[]
+
+gotoaccount.addEventListener('click',()=>{
+  if(userdata.length==0){
+    window.location.href="signup.html"
+  }else{
+    window.location.href="accounts.html"
+  }
 })
