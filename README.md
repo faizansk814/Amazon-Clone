@@ -1,6 +1,6 @@
 # Amazon Clone
 
-*Deployed Link:* [Amazon Clone](http://localhost:3000)
+*Deployed Link:* (https://faizanamazon.netlify.app/)
 
 ## Features
 
